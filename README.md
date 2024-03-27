@@ -34,7 +34,7 @@ The voice assistant chatbot offers the following functionality:
 
 ## File Structure
 
-- `main.py`: The main script that runs the chatbot
+- `nlp.py`: The main script that runs the chatbot
 
 ## Contributing
 

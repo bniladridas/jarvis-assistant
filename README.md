@@ -18,7 +18,7 @@ To run the voice assistant chatbot, follow these steps:
    Install them using pip:
 
 3. **Run the Chatbot**
-Run the `main.py` script to start the voice assistant chatbot:
+Run the `nlp.py` script to start the voice assistant chatbot:
 
 4. **Interact with the Chatbot**
 Speak to the chatbot, and it will respond based on the input provided. To stop the chatbot, say "stop".

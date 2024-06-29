@@ -4,7 +4,7 @@
 ![playsound](https://img.shields.io/badge/-playsound-009688?style=flat-square&logo=python&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-[![Watch the video](/data/Screenshot.png)](https://youtube.com/shorts/o_ZbD5GS5VY?si=gU2_Tp94G5UwC0DV)
+[![Watch the video](/data/dl.png)](https://youtube.com/shorts/o_ZbD5GS5VY?si=gU2_Tp94G5UwC0DV)
 
 
 

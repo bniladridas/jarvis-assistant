@@ -3,6 +3,11 @@
 ![gTTS](https://img.shields.io/badge/-gTTS-009688?style=flat-square&logo=python&logoColor=white)
 ![playsound](https://img.shields.io/badge/-playsound-009688?style=flat-square&logo=python&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+[![Watch the video](/data/Screenshot.png)](https://youtube.com/shorts/o_ZbD5GS5VY?si=gU2_Tp94G5UwC0DV)
+
+
+
 # Voice Assistant Chatbot
 
 This repository contains a simple voice assistant chatbot built using Python. The chatbot is capable of understanding user speech, processing it, and generating a spoken response. It utilizes various libraries, including SpeechRecognition, TextBlob, gTTS, and playsound, to handle speech recognition, sentiment analysis, text-to-speech conversion, and audio playback, respectively.

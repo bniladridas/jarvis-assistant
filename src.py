@@ -19,7 +19,7 @@ def process_speech():
             user_input = recognizer.recognize_google(audio)
             print(f"You just expressed: {user_input}")
 
-            # Check for the stop command
+            # Check for the stop command to end the conversation
             if "stop" in user_input.lower():
                 print("Alright, respecting your wish. Closing the conversation.")
                 break
@@ -28,7 +28,7 @@ def process_speech():
             blob = TextBlob(user_input)
             sentiment = blob.sentiment.polarity
 
-            # Generate a response based on sentiment and knowledge
+            # Generate a response based on sentiment and user input
             response_text = generate_response(sentiment, user_input)
 
             print(response_text)
@@ -37,8 +37,10 @@ def process_speech():
             text_to_speech(response_text)
 
         except sr.UnknownValueError:
+            # Handle case where speech was not understood
             print("Apologies, I didn't quite catch that. Could you please express yourself again?")
         except sr.RequestError as e:
+            # Handle case where there was an error with the Google API request
             print(f"Oops! There was an error connecting to the Google API: {e}")
 
 def text_to_speech(text):
@@ -120,6 +122,7 @@ def generate_response(sentiment, user_input):
             "The Great Wall of China is the longest wall globally, stretching over 13,000 miles."
         ]
 
+        # Choose a response based on the sentiment polarity
         if sentiment > 0.2:
             return random.choice(positive_responses)
         elif sentiment < -0.2:

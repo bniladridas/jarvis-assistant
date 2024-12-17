@@ -175,8 +175,6 @@ gitGraph
 
 <div align="center">
 
-**Powered by Das Industries™**
-
-[Documentation](link) • [Report Bug](link) • [Request Feature](link)
+[Documentation](/docs/) • [Report Bug](/docs/BUG_REPORT.md) • [Request Feature](/docs/FEATURE_REQUEST.md)
 
 </div>
